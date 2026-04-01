@@ -1,45 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>ETA to WI</title>
-   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="flex h-screen">
-   <p id="timer" class="shadow-2xl drop-shadow-2xl font-bold bg-purple-300 border-2 border-black text-center text-8xl rounded-3xl m-auto"></p>
-   
-   <script>
-      // Set the date we're counting down to
-      var countDownDate = new Date("Jul 21, 2021 05:05:00").getTime();
-
-      // Update the count down every 1 second
-      var x = setInterval(function () {
-
-         // Get today's date and time
-         var now = new Date().getTime();
-
-         // Find the distance between now and the count down date
-         var distance = countDownDate - now;
-
-         // Time calculations for days, hours, minutes and seconds
-         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-         // Display the result in the element with id="demo"
-         document.getElementById("timer").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
-
-         // If the count down is finished, write some text
-         if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("demo").innerHTML = "EXPIRED";
-         }
-      }, 1000);
-   </script>
-   
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CST 4565</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex h-screen">
+    <div class="m-auto">
+      <h1 class="text-4xl font-bold text-center">
+        <a
+          href="https://livemdxac-my.sharepoint.com/:u:/g/personal/n_chakubaji_mdx_ac_uk/IQCNvko99KEeSYisOMkYdtc2AZPq6Qrj8S550Lq0lc-X8Pc?e=OCPYEa"
+          >DOWNLOAD</a
+        >
+      </h1>
+    </div>
+  </body>
 </html>
